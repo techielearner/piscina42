@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -ltr | grep ^d | tr '\n' ','
+ls -ltr | grep -v ^d | tr '\n' ','
